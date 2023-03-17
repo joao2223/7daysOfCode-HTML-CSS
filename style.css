@@ -1,0 +1,288 @@
+navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagem-logo {
+    width: 27px;
+    height: 26.99px;
+}
+
+.imagem-optimus {
+    width: 113px;
+    height: 24px;
+    color: rebeccapurple;
+}
+
+.menu {
+    margin: 10px;
+    color: #667085;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu_navegacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao_cadastrar {
+    border: #8E2424 solid;
+    color: #FFFFFF;
+    background-color: #8E2424;
+    border-radius: 6px;
+    padding: 4px 4px 4px 4px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 96px 0px;
+}
+
+.sobre_nos {
+    color: #8E2424
+}
+
+.titulo_principal {
+    font-size: 48px;
+}
+
+.texto_principal {
+    color: #667085;
+    text-align: center;
+    font-size: 20px;
+}
+
+.meta_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 18%;
+}
+
+.titulo_numero {
+    color: #8E2424;
+    font-size: 60px;
+}
+
+.explicacao_card {
+    font-size: 18px;
+    color: #101828;
+}
+
+.descricao_card {
+    color: #667085
+}
+
+.procura_talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    padding-top: 8rem;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.vagas_abertas {
+    color: #8E2424;
+    border: solid #8E24240D;
+    background: #8E24240D;
+    border-radius: 16px;
+}
+
+.vagas {
+    padding-bottom: 96px;
+}
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_vaga {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.subtitulo_vaga {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.descricao_vaga {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.titulo_vaga {
+    padding-bottom: 20px;
+}
+
+.borda_vaga {
+    border: 1px solid #696969;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 24px 28px 24px;
+    gap: 24px;
+    width: 768px;
+    height: 136px;
+    margin: 0 auto
+}
+
+.borda_depoimentos {
+    border: 1px solid #696969;
+    margin: 0 auto;
+    border-radius: 16px;
+
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 64px;
+    gap: 32px;
+    background: rgba(196, 25, 25, 0.03);
+    width: 1216px;
+    height: 404px;
+}
+
+.titulo_depoimentos {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E2424;
+
+}
+
+.texto_depoimentos {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.perfil_depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem_perfil_depoimentos {
+    align-items: center;
+}
+
+.nome_perfil_depoimentos {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.emprego_perfil_depoimentos {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #667085;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 32px;
+    height: 430px;
+    background: #F9FAFB;
+}
+
+.titulo_rodape {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.texto_rodape {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.email_e_botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 14px 12px 16px;
+    gap: 8px;
+}
+
+.email_preecher {
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+    gap: 8px;
+    width: 360px;
+    height: 16px;
+    color: #667085;
+    ;
+}
+
+.tamanho_borda {
+    height: 24px;
+}
+
+.licenca {
+    width: 393px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #98A2B3;
+}
